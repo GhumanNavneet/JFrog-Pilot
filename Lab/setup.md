@@ -1,3 +1,5 @@
+**How to set up a Private, Remote and Virtual npm Registry**
+
 ![](image/screenshot1.png)
 
 The simplest way to manage and organize your Node dependencies is with an npm repository. You need reliable, secure, consistent and efficient access to your dependencies that are shared across your team, in a central location. Including a place to set up multiple registries, that work transparently with the npm client.
