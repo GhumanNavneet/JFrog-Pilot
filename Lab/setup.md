@@ -53,7 +53,8 @@ This [repository](https://github.com/jfrog/DevRel/) contains a simple npm challe
 * Configure [JFrog CLI](https://www.jfrog.com/confluence/display/CLI/), a smart client that provides a simple interface that automates access to JFrog products simplifying our automation scripts.
 
 * Configure the [Artifactory server](https://www.jfrog.com/confluence/display/CLI/CLI+for+JFrog+Artifactory#CLIforJFrogArtifactory-Configuration).
-  
+
+
   `$ jfrog rt c`
 
 
