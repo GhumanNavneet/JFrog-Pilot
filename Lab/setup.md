@@ -47,23 +47,26 @@ This repository contains a simple npm challenge you will use to build your proje
 Configure JFrog CLI, a smart client that provides a simple interface that automates access to JFrog products simplifying our automation scripts.
 
 Configure the Artifactory server.
-$ jfrog rt c
+-   $ jfrog rt c
 ![](image/screenshot6.png)
 
 Take the following steps to build the project with npm and resolve the project dependencies from Artifactory.
 Move to the root project directory
 Configure the project’s repositories.
-$ jfrog rt npmc
+-   $ jfrog rt npmc
 ![](image/screenshot7.webp)
 
 Install the npm package
-$ jfrog rt npm-install --build-name=my-npm-build --build-number=1
+-   $ jfrog rt npm-install --build-name=my-npm-build --build-number=1
+
 Add environment variables to the build-info.
-$ jfrog rt bce my-npm-build 1
+-   $ jfrog rt bce my-npm-build 1
+
 Pack and publish the npm package to Artifactory, while recording it as artifact in the build-info.
-$ jfrog rt npm-publish --build-name=my-npm-build --build-number=1
+-   $ jfrog rt npm-publish --build-name=my-npm-build --build-number=1
+
 Publish the build info to Artifactory.
-$ jfrog rt bp my-npm-build 1
+-   $ jfrog rt bp my-npm-build 1
 ![](image/screenshot8.webp)
 
 **Step 7: View your repository**
