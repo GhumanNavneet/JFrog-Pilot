@@ -1,4 +1,4 @@
-**How to set up a Private, Remote and Virtual npm Registry**
+### How to set up a Private, Remote and Virtual npm Registry
 
 ![](image/screenshot1.png)
 
@@ -7,12 +7,14 @@ The simplest way to manage and organize your Node dependencies is with an npm re
 With the JFrog free cloud subscription, including JFrog Artifactory, Xray and Pipelines, you can set up a free local, remote and virtual npm registry in minutes. This blog post will take you through the steps.
 
 **Before you start**
+
 Here’s what you’ll need:
 
-    npm client installed
-    JFrog self-hosted subscription or JFrog cloud subscription
-    JFrog CLI installed
-**Step 1: Login to your environment**
+* npm client installed
+* JFrog self-hosted subscription or JFrog cloud subscription
+* JFrog CLI installed
+
+Step 1: Login to your environment
 
 Login using the default username: admin, and password: password for the on-prem installation, or the credentials provided to you by email for the cloud installation.
 ![](image/screenshot2.webp)
